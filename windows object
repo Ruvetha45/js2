@@ -1,0 +1,10 @@
+Windows Object
+- Top of the hierarchy.
+- It is the outmost element of the object hierarchy.
+- Document object − Each HTML document that gets loaded into a window becomes a document object. 
+- The document contains the contents of the page.
+Document Object
+- A document is an object inside the window object.
+- We use a document object for manipulation inside the document.
+- The first thing that gets loaded into the browser is the window.
+- The properties related to that window are stored in the window object.
