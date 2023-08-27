@@ -3,8 +3,41 @@ Windows Object
 - It is the outmost element of the object hierarchy.
 - Document object − Each HTML document that gets loaded into a window becomes a document object. 
 - The document contains the contents of the page.
+- The window is at a root/top level at the JavaScript object hierarchy.
+- It  is a global/root object in JavaScript and it is the root object of the Document object model(DOM).
+-  It represents a browser window or frame that displays the contents of the webpage.
+- Whenever a window appears on the screen to display the contents of the document, the window object is created.
+- The document object is a property of the window object.
+- Width of window is width of browser window.
+- A document is an object inside the window object and we use a document object for manipulation inside the document.
+- It is an object of the browser.
+- The window is the global element for all objects, functions, etc.
+- It is loaded before the document because window container document.
+- logically:
+  window:{
+        document:{properties}
+    }
+- Example: window.document.title will return the title of the document.
 Document Object
 - A document is an object inside the window object.
 - We use a document object for manipulation inside the document.
 - The first thing that gets loaded into the browser is the window.
 - The properties related to that window are stored in the window object.
+- The document object is a property of the window object.
+- Width of document is width of webpage.
+- document is the actual object for your html page loaded in browser. This is a DOM object.
+- Document is the function(a DOM interface precisely), which will be used to create the document object. 
+- This "Document" is implemented by the browser program.
+- The Document Object Model (DOM) is a programming interface for web documents.
+- It represents the page so that programs can change the document structure, style, and content. 
+- The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
+- It is an object of window.
+- We can not access windows objects properties inside the document.
+- It is loaded after the loading window because the window contains a document.
+- The properties related to it are stored in the document object.
+- It represents the document loaded inside the window or browser.
+- It is the root element of the document object model.
+- logically:
+        document:{ properties}
+- Example: document.title will return the title of the document
+
